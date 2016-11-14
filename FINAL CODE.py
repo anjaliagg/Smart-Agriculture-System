@@ -7,7 +7,7 @@ import RPi.GPIO as gpio
 gpio.setmode(gpio.BCM)
 
 gpio.setwarnings(False)
-trig=23
+trig= 23
 echo=24
 
 gpio.setup(trig,gpio.OUT)
